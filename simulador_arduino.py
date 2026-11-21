@@ -5,7 +5,8 @@ import urllib.request
 import urllib.error
 
 # Substitua pelos dados em: Project Settings -> API no Supabase
-
+SUPABASE_URL = "https://tydsadwpddbelgwcunia.supabase.co/rest/v1/leituras_aquario"
+SUPABASE_ANON_KEY = "sb_publishable_w6MVpcvQ_zkdEQN5FBI4tA_vcKnbNFT"
 
 def gerar_leitura_simulada():
     # Gera valores normalmente dentro da faixa segura, com chance de pico anômalo
